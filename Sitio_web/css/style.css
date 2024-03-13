@@ -3,8 +3,8 @@ body {
 }
 .cover{
     height: 400px;
-    background-image: url("../img/fondo2.jpg");
-    color: black;
+    background-image: url("../img/fo.jpg");
+    color: #5EA8F8;
     background-size: cover;
     background-position: center;
     background-color: rgb(0,0,0,0,5);
