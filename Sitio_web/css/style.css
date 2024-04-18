@@ -3,12 +3,16 @@ body {
 }
 .cover{
     height: 400px;
-    background-image: url("../img/fondo2.jpg");
-    color: black;
+    background-image: url("../img/OIG4.jpg");
+    color: red;
     background-size: cover;
     background-position: center;
     background-color: rgb(0,0,0,0,5);
     background-blend-mode: darken;
+}
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px -1px rgba(0,0,0,1), 0 2px 4px -1px rgba(0,0,0,06);
 }
 .cover-small {
     height: 200px;
@@ -39,5 +43,50 @@ body {
     overflow-x: scroll;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+.responsive-iframe {
+  position: relative;
+  padding-top: 56.25%;
+}
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.social {
+    width: auto;
+    background: #2f3640;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 35px 0px;
+}
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.social p:hover {
+    text-decoration: underline;
+} 
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link a {
+    margin: 0 30px;
+}
+.link a i {
+    font-size: 3rem;
+}
+.link a.face:hover {
+    opacity: .5;
+}
+.link a.insta:hover {
+    opacity: .5;
+}.link a.tw:hover {
+    opacity: .5;
 }
   
